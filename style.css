@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+.cursive {
+    font-family: 'Ephesis', cursive;
+    color: black
+}
+
+p {
+    color:blueviolet
+}
+
+.nonpurple {
+    color: black
+}
+
+.googlelink {
+    margin-left: 150px;
+    border: 1px solid black 
+}
+
+.putborderhere {
+    border: 1px solid black 
+}
