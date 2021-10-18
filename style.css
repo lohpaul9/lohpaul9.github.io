@@ -1,23 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
-.cursive {
-    font-family: 'Ephesis', cursive;
-    color: black
+html {background-color: black;}
+
+
+* {
+    margin:0;
+    padding:0;
+    color: white
 }
 
-p {
-    color:blueviolet
+.background {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    object-fit: cover;
+    margin-bottom: 50px;
+  }
+  
+  .title {
+    font-family: Lato;
+    position: absolute;
+    bottom: 5vh;
+    left: 20px;
+    font-size: 100px;
+  }
+
+
+.header {
+    font-family: Lato;
+    font-size: 40px;
+    margin-left: 20px;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
-.nonpurple {
-    color: black
+.paragraph {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 22px;
 }
 
-.googlelink {
-    margin-left: 150px;
-    border: 1px solid black 
+.paragraph p {
+    font-family: Lato;
+    font-size: 20px;
+    text-align: center;
 }
 
-.putborderhere {
-    border: 1px solid black 
+.paragraph a {
+    text-decoration: none;
+    font-family: Lato;
+    font-size: 20px;
+    text-align: center;
 }
+
+.paragraph a:hover {
+    color: red;
+    transition: 1s;
+}
+
+hr {
+    width: 60%;
+    margin: auto;
+    opacity: 0.7;
+}
+
